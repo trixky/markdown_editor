@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { sampleText } from './sampleText'
 import marked from 'marked'
@@ -11,11 +10,17 @@ class App extends Component {
 	}
 
 	componentDidMount () {
-		console.log('je suis monte');
+		const text = localStorage.getItem('text');
+		if (text && text.length) {
+			this.setState({text})
+		} else {
+			this.setState({text: sampleText})
+		}
 	}
 
 	componentDidUpdate () {
-		console.log('je suis update')
+		const {text} = this.state
+		localStorage.setItem('text', text)
 	}
 
 	handleChange = event => {
