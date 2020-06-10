@@ -25,7 +25,7 @@ CMD serve -s build -l 3000
 
 # ----------------------------------------------------------------- #
 # - Build:                                                          #
-#              sudo docker build -t markdown_editor .               #
+#             sudo docker build -t markdown_editor .                #
 # - Run:                                                            #
 #             sudo docker run -it --rm -p 3001:3000 markdown_editor #
 # - Connect:                                                        #

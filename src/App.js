@@ -40,6 +40,7 @@ class App extends Component {
 					<div className='col-sm-6'>
 						<textarea
 							onChange={this.handleChange}
+							spellCheck='false'
 							value={this.state.text}
 							className='form-control'
 							rows='35'>
