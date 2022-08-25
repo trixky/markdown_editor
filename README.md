@@ -2,7 +2,7 @@
 
 A simple markdown editor using [react](https://fr.reactjs.org/), with the [marked](https://www.npmjs.com/package/marked) module. __(docker)__
 
-![Image description](https://i.ibb.co/yRwSXDR/markdown-editor-screenshot-1.png)
+![Image description](https://github.com/trixky/markdown_editor/blob/master/.demo/demo.png?raw=true)
 
 ## Usage Without Docker
 
